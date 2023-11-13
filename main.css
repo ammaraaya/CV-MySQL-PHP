@@ -1,0 +1,116 @@
+
+img{
+  background-position: center;
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0px 20px 9px 0px;
+}
+.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.biru {
+  background-color: beige;
+}
+
+.judul {
+  background-color: rgb(228, 228, 200);
+  height: 75px;
+}
+.judul h1 {
+  justify-content: center;
+  margin-top: 15px;
+  top: 50%;
+  text-align: center;
+  transform:translateY(25%);
+}
+.container-fluid a {
+  font-size: 1em;
+  color: rgb(170, 168, 168);
+  font-weight: 600;
+  position: relative;
+}
+
+.container-fluid a:hover,
+.container-fluid a.active{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card2 h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.btn{
+  background-color: rgb(228, 228, 200);
+  color: black;
+  border:none;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:active{
+  background-color: rgb(119, 119, 103);
+  color: black;
+  border: none;
+}
+.form-control{
+  margin-bottom: 10px;
+}
+
+.form-control:active{
+  border: none;
+}
+
+.card2 {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.card2 button {
+  background-color: rgb(119, 119, 103);
+  color: black;
+  border:none;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.card2 button:hover {
+  background-color: rgb(228, 228, 200);
+  color: black;
+  border: none;
+}
+
+.card-title h1{
+  margin-top: 5px;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+
+.container2 {
+  transform: translateY(35%);
+}
+.card1 {
+  background-color: beige;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
